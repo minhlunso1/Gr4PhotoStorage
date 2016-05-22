@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\res\\merged\\release\\values-lo-rLA\\values-lo-rLA.xml",
+        "outputFile": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\res\\merged\\release\\values-lo-rLA\\values-lo-rLA.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 203
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 311
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 434
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 531
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 638
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 723
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 828
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 940
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1017
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1095
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1175
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1282
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1379
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1477
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1582
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1685
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1789
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1911
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2007
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -368,17 +368,17 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2012,
-                    "endColumn": 295,
-                    "endOffset": 2303
+                    "endColumn": 187,
+                    "endOffset": 2195
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 24,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 3584,
-                        "endColumn": 299,
-                        "endOffset": 3879
+                        "startOffset": 500,
+                        "endColumn": 191,
+                        "endOffset": 687
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2308,
-                    "endColumn": 130,
-                    "endOffset": 2434
+                    "startOffset": 2200,
+                    "endColumn": 190,
+                    "endOffset": 2386
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1379,
-                        "endColumn": 130,
-                        "endOffset": 1505
+                        "startOffset": 2632,
+                        "endColumn": 194,
+                        "endOffset": 2822
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2439,
-                    "endColumn": 201,
-                    "endOffset": 2636
+                    "startOffset": 2391,
+                    "endColumn": 112,
+                    "endOffset": 2499
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1173,
-                        "endColumn": 205,
-                        "endOffset": 1374
+                        "startOffset": 2318,
+                        "endColumn": 112,
+                        "endOffset": 2426
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2641,
-                    "endColumn": 131,
-                    "endOffset": 2768
+                    "startOffset": 2504,
+                    "endColumn": 294,
+                    "endOffset": 2794
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 1041,
-                        "endColumn": 131,
-                        "endOffset": 1168
+                        "startOffset": 4517,
+                        "endColumn": 298,
+                        "endOffset": 4811
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2773,
-                    "endColumn": 133,
-                    "endOffset": 2902
+                    "startOffset": 2799,
+                    "endColumn": 126,
+                    "endOffset": 2921
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 907,
-                        "endColumn": 133,
-                        "endOffset": 1036
+                        "startOffset": 2066,
+                        "endColumn": 126,
+                        "endOffset": 2188
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2907,
-                    "endColumn": 225,
-                    "endOffset": 3128
+                    "startOffset": 2926,
+                    "endColumn": 202,
+                    "endOffset": 3124
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 444,
-                        "endColumn": 229,
-                        "endOffset": 669
+                        "startOffset": 1859,
+                        "endColumn": 206,
+                        "endOffset": 2061
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 3133,
-                    "endColumn": 228,
-                    "endOffset": 3357
+                    "startOffset": 3129,
+                    "endColumn": 124,
+                    "endOffset": 3249
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 674,
-                        "endColumn": 232,
-                        "endOffset": 902
+                        "startOffset": 1734,
+                        "endColumn": 124,
+                        "endOffset": 1854
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3362,
-                    "endColumn": 126,
-                    "endOffset": 3484
+                    "startOffset": 3254,
+                    "endColumn": 165,
+                    "endOffset": 3415
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 317,
-                        "endColumn": 126,
-                        "endOffset": 439
+                        "startOffset": 847,
+                        "endColumn": 169,
+                        "endOffset": 1012
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3489,
-                    "endColumn": 166,
-                    "endOffset": 3651
+                    "startOffset": 3420,
+                    "endColumn": 127,
+                    "endOffset": 3543
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 2814,
-                        "endColumn": 166,
-                        "endOffset": 2976
+                        "startOffset": 1606,
+                        "endColumn": 127,
+                        "endOffset": 1729
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3656,
-                    "endColumn": 120,
-                    "endOffset": 3772
+                    "startOffset": 3548,
+                    "endColumn": 226,
+                    "endOffset": 3770
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 2693,
-                        "endColumn": 120,
-                        "endOffset": 2809
+                        "startOffset": 1142,
+                        "endColumn": 230,
+                        "endOffset": 1368
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3777,
-                    "endColumn": 162,
-                    "endOffset": 3935
+                    "startOffset": 3775,
+                    "endColumn": 228,
+                    "endOffset": 3999
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 2530,
-                        "endColumn": 162,
-                        "endOffset": 2688
+                        "startOffset": 1373,
+                        "endColumn": 232,
+                        "endOffset": 1601
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3940,
-                    "endColumn": 120,
-                    "endOffset": 4056
+                    "startOffset": 4004,
+                    "endColumn": 124,
+                    "endOffset": 4124
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 2409,
-                        "endColumn": 120,
-                        "endOffset": 2525
+                        "startOffset": 1017,
+                        "endColumn": 124,
+                        "endOffset": 1137
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 4061,
-                    "endColumn": 146,
-                    "endOffset": 4203
+                    "startOffset": 4129,
+                    "endColumn": 160,
+                    "endOffset": 4285
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 146,
-                        "endOffset": 312
+                        "startOffset": 3613,
+                        "endColumn": 160,
+                        "endOffset": 3769
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 4208,
-                    "endColumn": 172,
-                    "endOffset": 4376
+                    "startOffset": 4290,
+                    "endColumn": 123,
+                    "endOffset": 4409
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 4324,
-                        "endColumn": 172,
-                        "endOffset": 4492
+                        "startOffset": 3489,
+                        "endColumn": 123,
+                        "endOffset": 3608
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4381,
-                    "endColumn": 129,
-                    "endOffset": 4506
+                    "startOffset": 4414,
+                    "endColumn": 154,
+                    "endOffset": 4564
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 4194,
-                        "endColumn": 129,
-                        "endOffset": 4319
+                        "startOffset": 692,
+                        "endColumn": 154,
+                        "endOffset": 842
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4511,
-                    "endColumn": 177,
-                    "endOffset": 4684
+                    "startOffset": 4569,
+                    "endColumn": 164,
+                    "endOffset": 4729
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 4016,
-                        "endColumn": 177,
-                        "endOffset": 4189
+                        "startOffset": 3324,
+                        "endColumn": 164,
+                        "endOffset": 3484
                     }
                 }
             },
@@ -671,18 +671,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4689,
-                    "endColumn": 131,
-                    "endOffset": 4816
+                    "startOffset": 4734,
+                    "endColumn": 120,
+                    "endOffset": 4850
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 25,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 3884,
-                        "endColumn": 131,
-                        "endOffset": 4011
+                        "startOffset": 3203,
+                        "endColumn": 120,
+                        "endOffset": 3319
                     }
                 }
             },
@@ -690,18 +690,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 4821,
-                    "endColumn": 263,
-                    "endOffset": 5080
+                    "startOffset": 4855,
+                    "endColumn": 183,
+                    "endOffset": 5034
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.4.0\\res\\values-lo-rLA\\common_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 267,
-                        "endOffset": 433
+                        "startOffset": 316,
+                        "endColumn": 183,
+                        "endOffset": 495
                     }
                 }
             },
@@ -709,18 +709,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 5085,
-                    "endColumn": 268,
-                    "endOffset": 5349
+                    "startOffset": 5039,
+                    "endColumn": 145,
+                    "endOffset": 5180
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 3107,
-                        "endColumn": 272,
-                        "endOffset": 3375
+                        "startOffset": 170,
+                        "endColumn": 145,
+                        "endOffset": 311
                     }
                 }
             },
@@ -728,18 +728,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 5354,
-                    "endColumn": 125,
-                    "endOffset": 5475
+                    "startOffset": 5185,
+                    "endColumn": 179,
+                    "endOffset": 5360
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 2981,
-                        "endColumn": 125,
-                        "endOffset": 3102
+                        "startOffset": 4948,
+                        "endColumn": 179,
+                        "endOffset": 5123
                     }
                 }
             },
@@ -747,18 +747,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 5480,
-                    "endColumn": 106,
-                    "endOffset": 5582
+                    "startOffset": 5365,
+                    "endColumn": 131,
+                    "endOffset": 5492
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 3380,
-                        "endColumn": 106,
-                        "endOffset": 3482
+                        "startOffset": 4816,
+                        "endColumn": 131,
+                        "endOffset": 4943
                     }
                 }
             },
@@ -766,18 +766,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 5587,
-                    "endColumn": 196,
-                    "endOffset": 5779
+                    "startOffset": 5497,
+                    "endColumn": 141,
+                    "endOffset": 5634
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 1641,
-                        "endColumn": 200,
-                        "endOffset": 1837
+                        "startOffset": 3774,
+                        "endColumn": 141,
+                        "endOffset": 3911
                     }
                 }
             },
@@ -785,18 +785,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 5784,
-                    "endColumn": 130,
-                    "endOffset": 5910
+                    "startOffset": 5639,
+                    "endColumn": 268,
+                    "endOffset": 5903
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 1510,
-                        "endColumn": 130,
-                        "endOffset": 1636
+                        "startOffset": 4040,
+                        "endColumn": 272,
+                        "endOffset": 4308
                     }
                 }
             },
@@ -804,18 +804,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 5915,
-                    "endColumn": 229,
-                    "endOffset": 6140
+                    "startOffset": 5908,
+                    "endColumn": 123,
+                    "endOffset": 6027
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 2175,
-                        "endColumn": 233,
-                        "endOffset": 2404
+                        "startOffset": 3916,
+                        "endColumn": 123,
+                        "endOffset": 4035
                     }
                 }
             },
@@ -823,18 +823,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 6145,
-                    "endColumn": 141,
-                    "endOffset": 6282
+                    "startOffset": 6032,
+                    "endColumn": 106,
+                    "endOffset": 6134
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 2033,
-                        "endColumn": 141,
-                        "endOffset": 2170
+                        "startOffset": 4313,
+                        "endColumn": 106,
+                        "endOffset": 4415
                     }
                 }
             },
@@ -842,18 +842,18 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 6287,
-                    "endColumn": 190,
-                    "endOffset": 6473
+                    "startOffset": 6139,
+                    "endColumn": 196,
+                    "endOffset": 6331
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1842,
-                        "endColumn": 190,
-                        "endOffset": 2028
+                        "startOffset": 2431,
+                        "endColumn": 200,
+                        "endOffset": 2627
                     }
                 }
             },
@@ -861,18 +861,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 6478,
-                    "endColumn": 96,
-                    "endOffset": 6570
+                    "startOffset": 6336,
+                    "endColumn": 124,
+                    "endOffset": 6456
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 3487,
-                        "endColumn": 96,
-                        "endOffset": 3579
+                        "startOffset": 2193,
+                        "endColumn": 124,
+                        "endOffset": 2313
                     }
                 }
             },
@@ -880,18 +880,18 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 6575,
-                    "endColumn": 98,
-                    "endOffset": 6669
+                    "startOffset": 6461,
+                    "endColumn": 230,
+                    "endOffset": 6687
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 29,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 4497,
-                        "endColumn": 98,
-                        "endOffset": 4591
+                        "startOffset": 2968,
+                        "endColumn": 234,
+                        "endOffset": 3198
                     }
                 }
             },
@@ -899,18 +899,18 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 6674,
-                    "endColumn": 114,
-                    "endOffset": 6784
+                    "startOffset": 6692,
+                    "endColumn": 140,
+                    "endOffset": 6828
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
                     "position": {
-                        "startLine": 30,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 4596,
-                        "endColumn": 114,
-                        "endOffset": 4706
+                        "startOffset": 2827,
+                        "endColumn": 140,
+                        "endOffset": 2963
                     }
                 }
             },
@@ -918,12 +918,69 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 6789,
-                    "endColumn": 100,
-                    "endOffset": 6885
+                    "startOffset": 6833,
+                    "endColumn": 96,
+                    "endOffset": 6925
                 },
                 "from": {
-                    "file": "D:\\Study\\ProjectManagement\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-lo-rLA\\common_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 4420,
+                        "endColumn": 96,
+                        "endOffset": 4512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 6930,
+                    "endColumn": 98,
+                    "endOffset": 7024
+                },
+                "from": {
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 98,
+                        "endOffset": 264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 7029,
+                    "endColumn": 114,
+                    "endOffset": 7139
+                },
+                "from": {
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\values-lo-rLA\\base_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 114,
+                        "endOffset": 379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 7144,
+                    "endColumn": 100,
+                    "endOffset": 7240
+                },
+                "from": {
+                    "file": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,

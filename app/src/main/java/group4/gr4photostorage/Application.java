@@ -1,0 +1,11 @@
+package group4.gr4photostorage;
+
+import com.google.android.gms.plus.model.people.Person;
+import com.quickblox.sample.core.CoreApp;
+
+/**
+ * Created by Administrator on 22-May-16.
+ */
+public class Application extends CoreApp {
+    public static Person me;
+}

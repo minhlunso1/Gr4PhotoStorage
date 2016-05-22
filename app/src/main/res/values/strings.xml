@@ -5,4 +5,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="Login_with_google">Login with Google</string>
+    <string name="please_check_connection">Please check network connection</string>
 </resources>

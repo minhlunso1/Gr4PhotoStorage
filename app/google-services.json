@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "296643370602",
+    "project_id": "famous-phalanx-128120"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296643370602:android:e6ed0b5f988ea308",
+        "android_client_info": {
+          "package_name": "group4.gr4photostorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296643370602-2kthcnjiqtpme4b29cd3lahprlg1ebp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "group4.gr4photostorage",
+            "certificate_hash": "7B26C2FC9A456F3DD0464B847FAEF062570CADF4"
+          }
+        },
+        {
+          "client_id": "296643370602-hjc8gdo392v8url3ogkqahsapphgsrpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYAIyLiGJ6liDDMou0HTr4PVrXkiQxnc8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
