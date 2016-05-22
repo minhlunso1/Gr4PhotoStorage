@@ -1,2 +1,2 @@
-# Gr4PhotoStorage
-The output project of group 4 in Project Management Lab Course
+# Gr4 Photo Storage
+The project of group 4 in Project Management Lab Course
