@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="quickblox-android-sdk-core-2.5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.quickblox/quickblox-android-sdk-core/2.5.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.quickblox/quickblox-android-sdk-core/2.5.2/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.quickblox/quickblox-android-sdk-core/2.5.2/jars/libs/qb-gson2.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
