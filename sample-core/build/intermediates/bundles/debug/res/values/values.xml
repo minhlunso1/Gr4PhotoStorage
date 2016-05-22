@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dlg_image_pick">
+        <item>Gallery</item>
+        <item>Camera</item>
+    </string-array>
+    <color name="background_app_color">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="color_accent">@color/color_green_qb</color>
+    <color name="color_blue_qb">#046ad0</color>
+    <color name="color_green_qb">#4ad24d</color>
+    <color name="color_primary">@color/white</color>
+    <color name="color_primary_dark">#d0d0d0</color>
+    <color name="color_username_rectangle">#99000000</color>
+    <color name="text_color_black">#000000</color>
+    <color name="text_color_dark_grey">#6e6e6e</color>
+    <color name="text_color_green">@color/color_green_qb</color>
+    <color name="text_color_light_grey">#dedede</color>
+    <color name="text_color_medium_dark_grey">#747474</color>
+    <color name="text_color_medium_grey">#b1b1b1</color>
+    <color name="text_color_primary">#212121</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <dimen name="fab_margin_bottom">16dp</dimen>
+    <dimen name="fab_margin_right">16dp</dimen>
+    <dimen name="padding_common">8dp</dimen>
+    <dimen name="padding_common_twice">16dp</dimen>
+    <dimen name="splash_main_text_size">32sp</dimen>
+    <dimen name="splash_version_text_size">12sp</dimen>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_choose_image_from">Select photo from…</string>
+    <string name="dlg_error">Error</string>
+    <string name="dlg_loading">Loading…</string>
+    <string name="dlg_ok">OK</string>
+    <string name="dlg_retry">Retry</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="splash_app_version">v %s</string>
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/color_accent</item>
+        <item name="colorControlHighlight">@color/color_accent</item>
+        <item name="colorControlNormal">@color/color_accent</item>
+
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+        <item name="android:windowBackground">@color/background_app_color</item>
+    </style>
+    <style name="AppTheme.Dark" parent="AppTheme">
+        <item name="android:background">@color/black</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="actionBarTheme">@style/DarkActionBarTheme</item>
+    </style>
+    <style name="BorderlessImageButtonStyle" parent="WrapContent">
+        <item name="android:background">@null</item>
+        <item name="android:padding">@dimen/padding_common</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="CenterProgressBarStyle" parent="@style/Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="DarkActionBarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="FabStyle" parent="WrapContent">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin_bottom</item>
+        <item name="android:layout_marginRight">@dimen/fab_margin_right</item>
+        <item name="android:layout_gravity">right|bottom</item>
+        <item name="borderWidth">0dp</item>
+        <item name="fabSize">normal</item>
+    </style>
+    <style name="ListItem" parent="MatchWidth">
+        <item name="android:layout_height">?android:attr/listPreferredItemHeight</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ListViewWithoutDividerStyle" parent="MatchParent">
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="MatchHeight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="MatchWidth">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SplashAppTitleStyle" parent="WrapContent">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textSize">@dimen/splash_main_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_common</item>
+        <item name="typeface">roboto_light</item>
+    </style>
+    <style name="SplashAppVersionStyle" parent="WrapContent">
+        <item name="android:textColor">@color/text_color_light_grey</item>
+        <item name="android:textSize">@dimen/splash_version_text_size</item>
+        <item name="typeface">roboto_light</item>
+    </style>
+    <style name="SplashLogoStyle" parent="WrapContent">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/qb_logo</item>
+    </style>
+    <style name="WeightHeight">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="WeightWidth">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
