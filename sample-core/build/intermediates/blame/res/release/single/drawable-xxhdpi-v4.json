@@ -232,10 +232,6 @@
         "source": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
         "source": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_normal.9.png"
     },
@@ -244,12 +240,12 @@
         "source": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png"
+        "merged": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_ic_googleplayservices.png",
-        "source": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-xxhdpi-v4\\common_ic_googleplayservices.png"
+        "merged": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "D:\\Study\\ProjectManagement\\Product\\Gr4PhotoStorage\\sample-core\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
