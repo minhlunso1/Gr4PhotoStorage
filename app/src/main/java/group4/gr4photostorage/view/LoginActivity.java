@@ -84,6 +84,7 @@ public class LoginActivity extends GoogleBaseActivity {
             try {
                 mResolvingError = true;
                 connectionResult.startResolutionForResult(this, 1);
+                Toast.makeText(this, "Press login again to access", Toast.LENGTH_LONG).show();
             } catch (IntentSender.SendIntentException e) {
                 mGoogleApiClient.connect();
             }

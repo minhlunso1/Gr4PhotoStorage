@@ -41,6 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
         android:text="@string/Update_Profile"
         android:textStyle="bold"
         android:background="@drawable/btn_update_profile"
