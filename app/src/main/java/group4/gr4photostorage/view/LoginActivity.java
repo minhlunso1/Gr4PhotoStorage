@@ -7,12 +7,10 @@ import android.content.IntentSender;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
-import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.plus.Plus;
 
 import butterknife.ButterKnife;
@@ -24,10 +22,8 @@ import group4.gr4photostorage.helper.AP;
 /**
  * Created by Administrator on 22-May-16.
  */
-public class LoginActivity extends AppCompatActivity implements
-        GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+public class LoginActivity extends GoogleBaseActivity {
 
-    private GoogleApiClient mGoogleApiClient;
     private boolean mResolvingError;
 
     @Override
@@ -35,7 +31,6 @@ public class LoginActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
-        mGoogleApiClient = buildGoogleApiClient();
     }
 
     @Override
@@ -43,22 +38,6 @@ public class LoginActivity extends AppCompatActivity implements
         super.onResume();
         if (AP.getStringData(this, "id")!=null)
             checkGooglePlayServicesAvailableAndLogin();
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        mGoogleApiClient.disconnect();
-    }
-
-    private GoogleApiClient buildGoogleApiClient() {
-        GoogleApiClient.Builder builder = new GoogleApiClient.Builder(this)
-                .addConnectionCallbacks(this)
-                .addOnConnectionFailedListener(this)
-                .addApi(Plus.API, Plus.PlusOptions.builder().build())
-                .addScope(Plus.SCOPE_PLUS_LOGIN);
-
-        return builder.build();
     }
 
     @OnClick(R.id.btn_login)
