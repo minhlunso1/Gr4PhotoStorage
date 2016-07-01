@@ -11,13 +11,13 @@ import com.google.android.gms.plus.Plus;
 /**
  * Created by Administrator on 25-May-16.
  */
-public class GoogleBaseActivity extends AppCompatActivity implements
+public class GoogleBaseActivity extends BaseActivity implements
         GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     protected GoogleApiClient mGoogleApiClient;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mGoogleApiClient = buildGoogleApiClient();
     }

@@ -6,7 +6,7 @@ import com.quickblox.core.QBSettings;
 
 public class CoreApp extends Application {
 
-    private static CoreApp instance;
+    protected static CoreApp instance;
 
     @Override
     public void onCreate() {

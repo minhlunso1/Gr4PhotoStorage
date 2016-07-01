@@ -12,12 +12,20 @@ import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.plus.Plus;
+import com.quickblox.auth.QBAuth;
+import com.quickblox.auth.model.QBSession;
+import com.quickblox.core.QBEntityCallback;
+import com.quickblox.core.exception.QBResponseException;
+import com.quickblox.users.QBUsers;
+import com.quickblox.users.model.QBUser;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import group4.gr4photostorage.Application;
 import group4.gr4photostorage.R;
 import group4.gr4photostorage.helper.AP;
+import group4.gr4photostorage.helper.Consts;
+import group4.gr4photostorage.helper.QuickBloxHelper;
 
 /**
  * Created by Administrator on 22-May-16.
@@ -27,10 +35,11 @@ public class LoginActivity extends GoogleBaseActivity {
     private boolean mResolvingError;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+        QuickBloxHelper.initQuickBlox(getApplicationContext());
     }
 
     @Override
@@ -66,9 +75,59 @@ public class LoginActivity extends GoogleBaseActivity {
         Application.me = Plus.PeopleApi.getCurrentPerson(mGoogleApiClient);
         if (Application.me!=null) {
             AP.saveData(this, "id", Application.me.getId());
-            startActivity(new Intent(this, MainActivity.class));
-            finish();
+
+            final QBUser user = new QBUser();
+            user.setLogin(Application.me.getId());
+
+            QBAuth.createSession(new QBEntityCallback<QBSession>() {
+                @Override
+                public void onSuccess(QBSession session, Bundle params) {
+                    loginQB(user);
+                }
+
+                @Override
+                public void onError(QBResponseException error) {
+                }
+            });
+
         }
+    }
+
+    private void loginQB(QBUser user) {
+        user.setPassword(Application.me.getId()+Consts.PASS_POSTFIX);
+        QBUsers.signIn(user, new QBEntityCallback<QBUser>() {
+            @Override
+            public void onSuccess(QBUser user, Bundle params) {
+                Application.USER_LOGIN = user.getLogin();
+                Application.USER_PASSWORD = Application.me.getId()+Consts.PASS_POSTFIX;
+                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                finish();
+            }
+
+            @Override
+            public void onError(QBResponseException errors) {
+                if (errors.getMessage().equals("Unauthorized"))
+                    registerQB();
+            }
+        });
+    }
+
+    private void registerQB() {
+        final QBUser user = new QBUser();
+        user.setLogin(Application.me.getId());
+        user.setPassword(Application.me.getId()+Consts.PASS_POSTFIX);
+        user.setFullName(Application.me.getDisplayName());
+        QBUsers.signUp(user, new QBEntityCallback<QBUser>() {
+            @Override
+            public void onSuccess(QBUser user, Bundle args) {
+                loginQB(user);
+            }
+
+            @Override
+            public void onError(QBResponseException error) {
+                System.out.println(error.getMessage());
+            }
+        });
     }
 
     @Override

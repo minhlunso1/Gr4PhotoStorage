@@ -8,4 +8,6 @@ import com.quickblox.sample.core.CoreApp;
  */
 public class Application extends CoreApp {
     public static Person me;
+    public static String USER_LOGIN;
+    public static String USER_PASSWORD;
 }
