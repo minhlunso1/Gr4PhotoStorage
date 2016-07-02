@@ -10,4 +10,15 @@
     <string name="Update_Profile">Update Profile</string>
     <string name="About">About</string>
     <string name="Logout">Logout</string>
+    <string name="Please_get_another">Please choose another one</string>
+    <string name="Successful">Successfully</string>
+    <string name="Failed">Upload failed</string>
+
+    <string name="please_wait">Please wait…</string>
+    <string name="dlg_error">Error</string>
+    <string name="dlg_ok">OK</string>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_loading">Loading…</string>
+    <string name="dlg_choose_image_from">Select photo from…</string>
+    <string name="dlg_retry">Retry</string>
 </resources>

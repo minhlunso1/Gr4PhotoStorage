@@ -25,6 +25,15 @@ import com.bumptech.glide.request.target.SimpleTarget;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.plus.Plus;
 import com.google.android.gms.plus.model.people.Person;
+import com.quickblox.content.QBContent;
+import com.quickblox.content.model.QBFile;
+import com.quickblox.core.QBEntityCallback;
+import com.quickblox.core.QBProgressCallback;
+import com.quickblox.core.exception.QBResponseException;
+import com.quickblox.sample.core.utils.DialogUtils;
+import com.quickblox.sample.core.utils.imagepick.OnImagePickedListener;
+
+import java.io.File;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -33,9 +42,12 @@ import de.hdodenhof.circleimageview.CircleImageView;
 import group4.gr4photostorage.Application;
 import group4.gr4photostorage.R;
 import group4.gr4photostorage.helper.AP;
+import group4.gr4photostorage.helper.Consts;
+import group4.gr4photostorage.helper.DataHolder;
+import group4.gr4photostorage.helper.ImagePickHelper;
 
 public class MainActivity extends GoogleBaseActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, OnImagePickedListener {
 
     //nullable if maybe there is no view
     @Nullable
@@ -48,6 +60,8 @@ public class MainActivity extends GoogleBaseActivity
     Button updateProfile;
 
     private boolean mResolvingError;
+    private ImagePickHelper imagePickHelper;
+    private MainActivity activity;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +70,8 @@ public class MainActivity extends GoogleBaseActivity
         ButterKnife.bind(this);
         mGoogleApiClient.connect();
         setSupportActionBar(toolbar);
+        imagePickHelper = new ImagePickHelper();
+        activity = this;
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -146,4 +162,61 @@ public class MainActivity extends GoogleBaseActivity
         }
     }
 
+    @OnClick(R.id.fab)
+    public void getImageToUpload(){
+        imagePickHelper.pickAnImage(this, Consts.SELECT_IMAGE_UPLOAD_CODE);
+    }
+
+    @Override
+    public void onImagePicked(int requestCode, File file) {
+        uploadSelectedImage(file);
+    }
+
+    @Override
+    public void onImagePickError(int requestCode, Exception e) {
+        Toast.makeText(this, getString(R.string.Please_get_another), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onImagePickClosed(int requestCode) {
+
+    }
+
+    private void uploadSelectedImage(final File imageFile) {
+        final int imageSizeKb = (int) imageFile.length() / 1024;
+        final float onePercent = (float) imageSizeKb / 100;
+
+        progressDialog.dismiss();
+        progressDialog = DialogUtils.getProgressDialog(this);
+        progressDialog.setMax(imageSizeKb);
+        progressDialog.setProgressNumberFormat("%1d/%2d kB");
+        progressDialog.show();
+
+        QBContent.uploadFileTask(imageFile, true, null, new QBEntityCallback<QBFile>() {
+            @Override
+            public void onSuccess(QBFile qbFile, Bundle bundle) {
+                DataHolder.getInstance().addQbFile(qbFile);
+                progressDialog.dismiss();
+                Toast.makeText(activity, getString(R.string.Successful), Toast.LENGTH_SHORT).show();
+//                updateData();
+            }
+
+            @Override
+            public void onError(QBResponseException e) {
+                progressDialog.dismiss();
+                View view = findViewById(R.id.content);
+                showSnackbarError(view, R.string.Failed, e, new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        uploadSelectedImage(imageFile);
+                    }
+                });
+            }
+        }, new QBProgressCallback() {
+            @Override
+            public void onProgressUpdate(int progress) {
+                progressDialog.setProgress((int) (onePercent * progress));
+            }
+        });
+    }
 }

@@ -10,4 +10,15 @@ public class Application extends CoreApp {
     public static Person me;
     public static String USER_LOGIN;
     public static String USER_PASSWORD;
+    public static Application instance;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        instance = this;
+    }
+
+    public static synchronized Application getInstance() {
+        return instance;
+    }
 }

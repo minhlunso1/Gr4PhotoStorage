@@ -18,6 +18,6 @@ public class Consts {
     public static int PREFERRED_IMAGE_HEIGHT_FULL = ResourceUtils.dpToPx(320);
 
     public static int PRIORITY_MAX_IMAGE_SIZE = 1024 * 1024 * 20;
-
+    public static final int SELECT_IMAGE_UPLOAD_CODE = 183;
 
 }
