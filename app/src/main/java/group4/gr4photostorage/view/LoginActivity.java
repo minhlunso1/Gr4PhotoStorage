@@ -51,6 +51,7 @@ public class LoginActivity extends GoogleBaseActivity {
 
     @OnClick(R.id.btn_login)
     public void checkGooglePlayServicesAvailableAndLogin() {
+        showProgressDialogGr4();
         int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
         if (status != ConnectionResult.SUCCESS) {
             if (GooglePlayServicesUtil.isUserRecoverableError(status)) {
@@ -59,11 +60,13 @@ public class LoginActivity extends GoogleBaseActivity {
                     @Override
                     public void onCancel(DialogInterface dialogInterface) {
                         Toast.makeText(getApplicationContext(), "Try again.", Toast.LENGTH_LONG).show();
+                        closeProgressDialogGr4();
                     }
                 });
                 dialog.show();
             } else {
                 Toast.makeText(this, "Please install Google Service.", Toast.LENGTH_LONG).show();
+                closeProgressDialogGr4();
             }
         } else {
             mGoogleApiClient.connect();
@@ -126,6 +129,7 @@ public class LoginActivity extends GoogleBaseActivity {
             @Override
             public void onError(QBResponseException error) {
                 System.out.println(error.getMessage());
+                closeProgressDialogGr4();
             }
         });
     }
@@ -144,12 +148,14 @@ public class LoginActivity extends GoogleBaseActivity {
                 mResolvingError = true;
                 connectionResult.startResolutionForResult(this, 1);
                 Toast.makeText(this, "Press login again to access", Toast.LENGTH_LONG).show();
+                closeProgressDialogGr4();
             } catch (IntentSender.SendIntentException e) {
                 mGoogleApiClient.connect();
             }
         } else {
             mResolvingError = true;
             Toast.makeText(this, getString(R.string.please_check_connection), Toast.LENGTH_LONG).show();
+            closeProgressDialogGr4();
         }
     }
 }

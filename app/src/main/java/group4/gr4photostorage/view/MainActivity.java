@@ -1,10 +1,12 @@
 package group4.gr4photostorage.view;
 
+import android.app.ActivityManager;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -136,6 +138,10 @@ public class MainActivity extends GoogleBaseActivity
             // Handle
         } else if (id == R.id.logout) {
             AP.clearPrefs(this);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                ((ActivityManager) getSystemService(ACTIVITY_SERVICE))
+                        .clearApplicationUserData();
+            }
             startActivity(new Intent(MainActivity.this, LoginActivity.class));
             finish();
         }

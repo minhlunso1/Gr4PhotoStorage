@@ -17,4 +17,9 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Theme.Gr4Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
 </resources>

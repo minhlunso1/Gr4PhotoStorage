@@ -20,7 +20,7 @@ public class AP {
 
     public static void clearPrefs(Context context) {
         SharedPreferences settings = context.getSharedPreferences("Session", Context.MODE_PRIVATE);
-        settings.edit().clear().commit();
+        settings.edit().clear().apply();
     }
 
     public static void saveData(Context context, String key, boolean value) {
