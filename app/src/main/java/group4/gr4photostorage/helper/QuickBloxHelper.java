@@ -2,9 +2,11 @@ package group4.gr4photostorage.helper;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.text.TextUtils;
 
 import com.quickblox.auth.QBAuth;
 import com.quickblox.auth.model.QBSession;
+import com.quickblox.content.model.QBFile;
 import com.quickblox.core.QBEntityCallback;
 import com.quickblox.core.QBSettings;
 import com.quickblox.core.exception.QBResponseException;
@@ -33,5 +35,16 @@ public class QuickBloxHelper {
             public void onError(QBResponseException e) {
             }
         });
+    }
+
+    public static String getUrlFromQBFile(QBFile qbFile) {
+        if (qbFile.isPublic()) {
+            String publicUrl = qbFile.getPublicUrl();
+            if (!TextUtils.isEmpty(publicUrl)) {
+                return publicUrl;
+            }
+        }
+
+        return qbFile.getPrivateUrl();
     }
 }

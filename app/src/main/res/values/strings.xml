@@ -21,4 +21,5 @@
     <string name="dlg_loading">Loading…</string>
     <string name="dlg_choose_image_from">Select photo from…</string>
     <string name="dlg_retry">Retry</string>
+    <string name="loading_error">Error loading from server</string>
 </resources>
