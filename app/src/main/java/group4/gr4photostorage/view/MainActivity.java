@@ -74,7 +74,7 @@ public class MainActivity extends GoogleBaseActivity
     private boolean mResolvingError;
     private ImagePickHelper imagePickHelper;
     private MainActivity activity;
-    public static final int IMAGES_PER_PAGE = 10;
+    public static final int IMAGES_PER_PAGE = 20;
     private int current_page = 1;
 
     @Override

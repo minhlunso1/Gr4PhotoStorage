@@ -42,7 +42,7 @@ public class RvMainAdapter extends RecyclerView.Adapter<RvMainAdapter.ImageViewH
 
     @Override
     public ImageViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_gallery, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_gallery, parent, false);
         ImageViewHolder holder = new ImageViewHolder(v);
         return holder;
     }
