@@ -109,6 +109,12 @@ public class MainActivity extends GoogleBaseActivity
         });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mGoogleApiClient.connect();
+    }
+
     private void setupRecyclerView() {
         StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.HORIZONTAL);
         rv.setLayoutManager(staggeredGridLayoutManager);

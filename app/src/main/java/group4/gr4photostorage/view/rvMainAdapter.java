@@ -49,8 +49,14 @@ public class RvMainAdapter extends RecyclerView.Adapter<RvMainAdapter.ImageViewH
 
     @Override
     public void onBindViewHolder(ImageViewHolder holder, int position) {
-        QBFile qbFile = getItem(position);
+        final QBFile qbFile = getItem(position);
         loadImage(holder, qbFile);
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ShowImageActivity.start(context, qbFile.getId());
+            }
+        });
 
         downloadMore(position);
     }
