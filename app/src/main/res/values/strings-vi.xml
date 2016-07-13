@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Gr4 Photo Storage</string>Kho ảnh Gr4Photo
+
+    <string name="navigation_drawer_open">Mở bảng điều khiển</string> 
+    <string name="navigation_drawer_close">Đóng bảng điều khiển</string>
+
+    <string name="action_settings">Cài đặt</string>
+    <string name="Login_with_google">Đăng nhập với Google+</string>
+    <string name="please_check_connection">Vui lòng kiểm tra lại kết nối</string>
+    <string name="Update_Profile">Cập nhật thông tin</string>
+    <string name="About">Thông tin ứng dụng</string>
+    <string name="Logout">Đăng xuất</string>
+    <string name="Please_get_another">Vui lòng chọn hình ảnh khác</string>
+    <string name="Successful">Đăng tải thành công</string>
+    <string name="Failed">Đăng tải thất bại</string>
+
+    <string name="please_wait">Chờ trong giây lát...</string>
+    <string name="dlg_error">Lỗi!</string>
+    <string name="dlg_ok">Chọn</string>
+    <string name="dlg_cancel">Hủy</string>
+    <string name="dlg_loading">Đang tải...</string>
+    <string name="dlg_choose_image_from">Chọn hình ảnh từ</string>
+    <string name="dlg_retry">Thử lại</string>
+</resources>
