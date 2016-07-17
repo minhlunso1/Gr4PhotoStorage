@@ -24,7 +24,7 @@ import group4.gr4photostorage.helper.QuickBloxHelper;
 /**
  * Created by Minh on 7/10/2016.
  */
-public class RvMainAdapter extends RecyclerView.Adapter<RvMainAdapter.ImageViewHolder> {
+class RvMainAdapter extends RecyclerView.Adapter<RvMainAdapter.ImageViewHolder> {
 
     private Context context;
     public SparseArray<QBFile> qbFileSparseArray;

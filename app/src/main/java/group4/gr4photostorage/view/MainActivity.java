@@ -1,6 +1,7 @@
 package group4.gr4photostorage.view;
 
 import android.app.ActivityManager;
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.IntentSender;
@@ -99,6 +100,7 @@ public class MainActivity extends GoogleBaseActivity
         imgAvatar = (CircleImageView) headerView.findViewById(R.id.imageView);
         tvName = (TextView) headerView.findViewById(R.id.tv_name);
 
+        setupView();
         updateProfile = (Button) headerView.findViewById(R.id.btn_update_profile);
         updateProfile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -165,7 +167,10 @@ public class MainActivity extends GoogleBaseActivity
         int id = item.getItemId();
 
         if (id == R.id.about) {
-            // Handle
+            View view = View.inflate (activity, R.layout.dialog_about, null);
+            Dialog aboutDialog = new Dialog(activity);
+            aboutDialog.setContentView(view);
+            aboutDialog.show();
         } else if (id == R.id.logout) {
             AP.clearPrefs(this);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
