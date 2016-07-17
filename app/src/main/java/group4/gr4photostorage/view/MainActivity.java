@@ -1,6 +1,7 @@
 package group4.gr4photostorage.view;
 
 import android.app.ActivityManager;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.graphics.Bitmap;
@@ -13,6 +14,8 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,10 +35,12 @@ import com.quickblox.content.model.QBFile;
 import com.quickblox.core.QBEntityCallback;
 import com.quickblox.core.QBProgressCallback;
 import com.quickblox.core.exception.QBResponseException;
+import com.quickblox.core.request.QBPagedRequestBuilder;
 import com.quickblox.sample.core.utils.DialogUtils;
 import com.quickblox.sample.core.utils.imagepick.OnImagePickedListener;
 
 import java.io.File;
+import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -49,21 +54,28 @@ import group4.gr4photostorage.helper.DataHolder;
 import group4.gr4photostorage.helper.ImagePickHelper;
 
 public class MainActivity extends GoogleBaseActivity
-        implements NavigationView.OnNavigationItemSelectedListener, OnImagePickedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, OnImagePickedListener, RvMainAdapter.DownloadMoreListener {
 
     //nullable if maybe there is no view
     @Nullable
     @BindView(R.id.toolbar)
     Toolbar toolbar;
+    @BindView(R.id.rv)
+    RecyclerView rv;
+    @BindView(R.id.content)
+    View contentView;
 
     LinearLayout headerContainer;
     CircleImageView imgAvatar;
     TextView tvName;
     Button updateProfile;
+    RvMainAdapter adapter;
 
     private boolean mResolvingError;
     private ImagePickHelper imagePickHelper;
     private MainActivity activity;
+    public static final int IMAGES_PER_PAGE = 20;
+    private int current_page = 1;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -74,6 +86,9 @@ public class MainActivity extends GoogleBaseActivity
         setSupportActionBar(toolbar);
         imagePickHelper = new ImagePickHelper();
         activity = this;
+
+        DataHolder.getInstance().clear();
+        setupRecyclerView();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -92,6 +107,21 @@ public class MainActivity extends GoogleBaseActivity
                 setupView();
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mGoogleApiClient.connect();
+    }
+
+    private void setupRecyclerView() {
+        StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.HORIZONTAL);
+        rv.setLayoutManager(staggeredGridLayoutManager);
+        adapter = new RvMainAdapter(this, DataHolder.getInstance().getQBFiles());
+        adapter.setDownloadMoreListener(this);
+        rv.setAdapter(adapter);
+        getFileList();
     }
 
     private void setupView() {
@@ -204,7 +234,8 @@ public class MainActivity extends GoogleBaseActivity
                 DataHolder.getInstance().addQbFile(qbFile);
                 progressDialog.dismiss();
                 Toast.makeText(activity, getString(R.string.Successful), Toast.LENGTH_SHORT).show();
-//                updateData();
+                adapter.updateInsertedData(DataHolder.getInstance().getQBFiles());
+                rv.scrollToPosition(adapter.qbFileSparseArray.size()-1);
             }
 
             @Override
@@ -224,5 +255,51 @@ public class MainActivity extends GoogleBaseActivity
                 progressDialog.setProgress((int) (onePercent * progress));
             }
         });
+    }
+
+    private void getFileList() {
+        progressDialog = DialogUtils.getProgressDialog(this);
+        progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        progressDialog.show();
+
+        QBPagedRequestBuilder builder = new QBPagedRequestBuilder();
+        builder.setPerPage(IMAGES_PER_PAGE);
+        builder.setPage(current_page++);
+
+        QBContent.getFiles(builder, new QBEntityCallback<ArrayList<QBFile>>() {
+            @Override
+            public void onSuccess(ArrayList<QBFile> qbFiles, Bundle bundle) {
+                if (qbFiles.isEmpty()) {
+                    current_page--;
+                } else {
+                    DataHolder.getInstance().addQbFiles(qbFiles);
+                }
+                if (progressDialog.isIndeterminate()) {
+                    progressDialog.dismiss();
+                }
+                updateData();
+            }
+
+            @Override
+            public void onError(QBResponseException e) {
+                progressDialog.dismiss();
+                current_page--;
+                showSnackbarError(contentView, R.string.loading_error, e, new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        getFileList();
+                    }
+                });
+            }
+        });
+    }
+
+    @Override
+    public void downloadMore() {
+        getFileList();
+    }
+
+    private void updateData() {
+        adapter.updateData(DataHolder.getInstance().getQBFiles());
     }
 }

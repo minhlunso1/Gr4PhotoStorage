@@ -49,6 +49,12 @@ public class LoginActivity extends GoogleBaseActivity {
             checkGooglePlayServicesAvailableAndLogin();
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        closeProgressDialogGr4();
+    }
+
     @OnClick(R.id.btn_login)
     public void checkGooglePlayServicesAvailableAndLogin() {
         showProgressDialogGr4();
