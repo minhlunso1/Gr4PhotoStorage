@@ -1,4 +1,4 @@
 # Gr4 Photo Storage
 The project of group 4 in Project Management Lab Course
 
-<img src='http://i.imgur.com/4rbYCC6.gif' title='InstagramPhotoViewer_Minh' width='' alt='InstagramPhotoViewer_Minh' />
+<img src='http://i.imgur.com/ACoPBYH.gifv' title='InstagramPhotoViewer_Minh' width='' alt='InstagramPhotoViewer_Minh' />
