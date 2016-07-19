@@ -94,6 +94,12 @@ public class LoginActivity extends GoogleBaseActivity {
     }
 
     @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        permissionNewUtils.onRequestPermissionsResult(this, requestCode, permissions, grantResults, iDo);
+    }
+
+    @Override
     public void onConnected(@Nullable Bundle bundle) {
         Application.me = Plus.PeopleApi.getCurrentPerson(mGoogleApiClient);
         if (Application.me!=null) {
