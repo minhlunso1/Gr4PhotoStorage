@@ -21,4 +21,9 @@
     <string name="dlg_loading">Đang tải...</string>
     <string name="dlg_choose_image_from">Chọn hình ảnh từ</string>
     <string name="dlg_retry">Thử lại</string>
+    <string name="Close">Đóng</string>
+    <string name="Continue">Tiếp tục</string>
+    <string name="Deny_permission_try_again">Yêu cầu chấp nhận các quyền để có thể sủ dụng</string>
+    <string name="Try_again">Thử lại</string>
+    <string name="Cancel">Hủy</string>
 </resources>

@@ -22,4 +22,9 @@
     <string name="dlg_choose_image_from">Select photo from…</string>
     <string name="dlg_retry">Retry</string>
     <string name="loading_error">Error loading from server</string>
+    <string name="Close">Close</string>
+    <string name="Continue">Continue</string>
+    <string name="Deny_permission_try_again">Require accepting permission to use</string>
+    <string name="Try_again">Try again</string>
+    <string name="Cancel">Cancel</string>
 </resources>

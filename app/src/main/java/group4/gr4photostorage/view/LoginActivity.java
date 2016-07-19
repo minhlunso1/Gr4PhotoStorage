@@ -19,6 +19,9 @@ import com.quickblox.core.exception.QBResponseException;
 import com.quickblox.users.QBUsers;
 import com.quickblox.users.model.QBUser;
 
+import java.util.Arrays;
+import java.util.List;
+
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import group4.gr4photostorage.Application;
@@ -26,6 +29,7 @@ import group4.gr4photostorage.R;
 import group4.gr4photostorage.helper.AP;
 import group4.gr4photostorage.helper.Consts;
 import group4.gr4photostorage.helper.QuickBloxHelper;
+import group4.gr4photostorage.utils.PermissionNewUtils;
 
 /**
  * Created by Administrator on 22-May-16.
@@ -33,12 +37,41 @@ import group4.gr4photostorage.helper.QuickBloxHelper;
 public class LoginActivity extends GoogleBaseActivity {
 
     private boolean mResolvingError;
+    private PermissionNewUtils permissionNewUtils;
+    private LoginActivity activity;
+    PermissionNewUtils.IDo iDo = new PermissionNewUtils.IDo() {
+        @Override
+        public void doWhat() {
+            showProgressDialogGr4();
+            int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
+            if (status != ConnectionResult.SUCCESS) {
+                if (GooglePlayServicesUtil.isUserRecoverableError(status)) {
+                    Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, activity, 0);
+                    dialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+                        @Override
+                        public void onCancel(DialogInterface dialogInterface) {
+                            Toast.makeText(getApplicationContext(), "Try again.", Toast.LENGTH_LONG).show();
+                            closeProgressDialogGr4();
+                        }
+                    });
+                    dialog.show();
+                } else {
+                    Toast.makeText(getBaseContext(), "Please install Google Service.", Toast.LENGTH_LONG).show();
+                    closeProgressDialogGr4();
+                }
+            } else {
+                mGoogleApiClient.connect();
+            }
+        }
+    };
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+        activity = this;
+        permissionNewUtils = new PermissionNewUtils();
         QuickBloxHelper.initQuickBlox(getApplicationContext());
     }
 
@@ -57,26 +90,7 @@ public class LoginActivity extends GoogleBaseActivity {
 
     @OnClick(R.id.btn_login)
     public void checkGooglePlayServicesAvailableAndLogin() {
-        showProgressDialogGr4();
-        int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
-        if (status != ConnectionResult.SUCCESS) {
-            if (GooglePlayServicesUtil.isUserRecoverableError(status)) {
-                Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, this, 0);
-                dialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
-                    @Override
-                    public void onCancel(DialogInterface dialogInterface) {
-                        Toast.makeText(getApplicationContext(), "Try again.", Toast.LENGTH_LONG).show();
-                        closeProgressDialogGr4();
-                    }
-                });
-                dialog.show();
-            } else {
-                Toast.makeText(this, "Please install Google Service.", Toast.LENGTH_LONG).show();
-                closeProgressDialogGr4();
-            }
-        } else {
-            mGoogleApiClient.connect();
-        }
+        permissionNewUtils.checkPermission(this, iDo);
     }
 
     @Override
