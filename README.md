@@ -1,4 +1,8 @@
 # Gr4 Photo Storage
-The project of group 4 in Project Management Lab Course
+The project of group 4 in Project Management Lab Course.
 
-<img src='http://i.imgur.com/ACoPBYH.gif' title='PhotoStorage_Minh' width='' alt='PhotoStorage_Minh' />
+Made by Minh Nguyen
+Email: aminh1603@gmail.com
+
+## Walkthrough
+![screenshot](ACoPBYH.gif)
