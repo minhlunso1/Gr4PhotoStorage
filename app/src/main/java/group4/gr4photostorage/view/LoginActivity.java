@@ -39,6 +39,8 @@ public class LoginActivity extends GoogleBaseActivity {
     private boolean mResolvingError;
     private PermissionNewUtils permissionNewUtils;
     private LoginActivity activity;
+    private final int RC_RESOLVE = 1;
+
     PermissionNewUtils.IDo iDo = new PermissionNewUtils.IDo() {
         @Override
         public void doWhat() {
@@ -172,8 +174,7 @@ public class LoginActivity extends GoogleBaseActivity {
         else if (connectionResult.hasResolution()) {
             try {
                 mResolvingError = true;
-                connectionResult.startResolutionForResult(this, 1);
-                Toast.makeText(this, "Press login again to access", Toast.LENGTH_LONG).show();
+                connectionResult.startResolutionForResult(this, RC_RESOLVE);
                 closeProgressDialogGr4();
             } catch (IntentSender.SendIntentException e) {
                 mGoogleApiClient.connect();
@@ -184,4 +185,19 @@ public class LoginActivity extends GoogleBaseActivity {
             closeProgressDialogGr4();
         }
     }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == RC_RESOLVE) {
+            mResolvingError = false;
+            if (resultCode == RESULT_OK) {
+                // Make sure the app is not already connected or attempting to connect
+                if (!mGoogleApiClient.isConnecting() && !mGoogleApiClient.isConnected()) {
+                    showProgressDialogGr4();
+                    mGoogleApiClient.connect();
+                }
+            }
+        }
+    }
+
 }
