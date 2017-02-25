@@ -5,5 +5,9 @@ Made by Minh Nguyen
 
 Email: aminh1603@gmail.com
 
+## Demo
+
+[![Get it on Google Play](app\src\main\res\drawable\google_play.png)](https://play.google.com/store/apps/details?id=group4.gr4photostorage)
+
 ## Walkthrough
 ![screenshot](ACoPBYH.gif)

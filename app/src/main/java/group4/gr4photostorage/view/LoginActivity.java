@@ -19,9 +19,6 @@ import com.quickblox.core.exception.QBResponseException;
 import com.quickblox.users.QBUsers;
 import com.quickblox.users.model.QBUser;
 
-import java.util.Arrays;
-import java.util.List;
-
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import group4.gr4photostorage.Application;
